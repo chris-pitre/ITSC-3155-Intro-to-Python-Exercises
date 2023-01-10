@@ -1,3 +1,7 @@
+#Chris Pitre
+#Intro to Python Exercises
+#Exercise 4
+
 numFloats = int(input("Enter a number: "))
 floatList = []
 

@@ -1,3 +1,7 @@
+#Chris Pitre
+#Intro to Python Exercises
+#Exercise 1
+
 grade = int(input('Enter your Grade: '))
 
 if grade >= 90:

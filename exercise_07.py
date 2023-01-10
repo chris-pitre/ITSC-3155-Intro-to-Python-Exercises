@@ -1,3 +1,7 @@
+#Chris Pitre
+#Intro to Python Exercises
+#Exercise 7
+
 numList = []
 evenNums = []
 quitCase = True
