@@ -1,4 +1,4 @@
-cubeInt = input("Enter an integer greater than 1: ")
+cubeInt = int(input("Enter an integer greater than 1: "))
 
-for i in range(cubeInt):
-    print("The cube of "+i+"is "+i**2)
+for i in range(cubeInt+1):
+    print("The cube of {} is {}".format(i, i**3))
