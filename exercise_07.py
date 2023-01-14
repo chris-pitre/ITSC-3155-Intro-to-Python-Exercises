@@ -3,7 +3,6 @@
 #Exercise 7
 
 numList = []
-evenNums = []
 quitCase = True
 temp = None
 
@@ -16,8 +15,6 @@ while quitCase:
 
 print("All Nums: {}".format(numList))
 
-for i in numList:
-    if i % 2 == 0:
-        evenNums.append(i)
+evenNums = [i for i in numList if i % 2 == 0]
 
 print("Even Nums: {}".format(evenNums))
